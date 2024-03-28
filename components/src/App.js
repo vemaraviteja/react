@@ -12,6 +12,7 @@ function App() {
       <ButtonComponent></ButtonComponent>
       <CustomList></CustomList>
       <Image></Image>
+      <h1>HELLO TODAY I HAVE LEARNT ABOUT GIT PR AND CREATING BRANCHES FROM LOCAL</h1>
     </div>
   );
 }
