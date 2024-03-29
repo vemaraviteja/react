@@ -1,5 +1,5 @@
 
-import List2 from "../List2"
+import List2 from "./List2"
 
 export default function List(){
     var  arr=["banana","watermelon","Apple"]
