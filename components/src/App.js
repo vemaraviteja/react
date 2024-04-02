@@ -10,6 +10,7 @@ import './App.css';
 
 // import CustomImage from './classComponents/CustomImage';
 import { CustomImage,Table } from './classComponents/CustomImage';
+import ListComponent from './classComponents/one';
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
       <ListItems></ListItems> */}
       <CustomImage></CustomImage>
       <Table></Table>
+
+      <ListComponent></ListComponent>
+
+      
 
 
     </div>

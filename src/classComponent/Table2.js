@@ -1,12 +1,15 @@
-export default function Table2({value}){
-    return(
-          
-        <tr>
-            <td>{value.id}</td>
-            <td>{value.name}</td>
-            <td>{value.branch}</td>
-        </tr>
-       
+export default function Table2(props){
+    console.log(props,"props")
 
+    // const {value} = props
+    
+    return(        
+        <tr>
+            <td>{props.value.id}</td>
+            <td>{props.value.name}</td>
+            
+           
+        </tr>
+    
     );
 }

@@ -11,13 +11,12 @@ import Table2 from "./Table2"
                 //             <td>{val.id}</td><td>{val.name}</td><td>{val.branch}</td>
                 //         </tr>
                 //     )
-                // })
-                arr.map((val)=>{
-                    <Table2 value={val}></Table2>
-                    console.log(val)
-                })
+                // }) 
+                arr.map((val)=>     <Table2 value={val}></Table2>
+                )
             }
         </table>
+
 
     )
 }
