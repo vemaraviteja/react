@@ -13,15 +13,17 @@ import { Developers } from './Day29/03/24/Developers';
 import Child from './Day29/03/24/ChildProp';
 import CustomText from './Apr_01_04_2024/Inline';
 import FirstPage from './Apr_01_04_2024/BootStrap/firstPage';
+import ButtonComponents from './Apr_02_04_2024/button';
+import Fruits from './Apr_02_04_2024/Fruits';
+import Fruits2 from './Apr_02_04_2024/Fruits2';
 
 
 function App() {
   return (
     <div >
+      <FirstPage></FirstPage>
 
-
-<FirstPage></FirstPage>
-
+    
       
      {/* <Profile></Profile> */}
 
@@ -63,7 +65,11 @@ function App() {
 
       <CustomText></CustomText>
 
-      
+      <ButtonComponents></ButtonComponents>
+
+      <Fruits></Fruits>
+
+      <Fruits2></Fruits2>
     </div>
   );
 }
