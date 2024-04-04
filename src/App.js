@@ -16,11 +16,21 @@ import FirstPage from './Apr_01_04_2024/BootStrap/firstPage';
 import ButtonComponents from './Apr_02_04_2024/button';
 import Fruits from './Apr_02_04_2024/Fruits';
 import Fruits2 from './Apr_02_04_2024/Fruits2';
+import { Button } from 'bootstrap';
+import Curd from './Apr_03_04_2024/Curd';
+import Repeat from './Repeat/repeat';
+import FtechData from './Apr_04_04_2024/FetchData';
 
 
 function App() {
   return (
     <div >
+       <h1>Fetching data</h1>
+      <FtechData></FtechData>
+
+
+
+
       <FirstPage></FirstPage>
 
     
@@ -69,7 +79,12 @@ function App() {
 
       <Fruits></Fruits>
 
-      <Fruits2></Fruits2>
+      <Fruits2></Fruits2><br></br><br></br>
+      <h1>03-04-2024</h1>
+      {/* <Curd></Curd> */}
+      <h1>REPEAT THE CRUD TASK</h1>
+      <Repeat></Repeat>
+     
     </div>
   );
 }
