@@ -1,11 +1,11 @@
 import { Component } from "react";
 import axios from "axios";
-import Loaders from "./loaders";
+import Loaders from "../Apr_04_04_2024/loaders";
 
-import "./styleSheet.css"
+import "../Apr_04_04_2024/styleSheet.css"
 
 
-class FtechData extends Component{
+class LifeCycle extends Component{
     // state ={
     //     products:[],
     // }
@@ -15,7 +15,12 @@ class FtechData extends Component{
         super()
         this.state={
             products:[],
+            favoriteColor:"green",
         }
+    }
+
+    static getDerivedStateFromProps(props, state) {
+        return { favoriteColor: props.favcol };
     }
 
     componentDidMount(){
@@ -27,18 +32,9 @@ class FtechData extends Component{
 
     }
 
-    // fetchData= ()=>{
-    //     fetch("https://dummyjson.com/products").then((val)=>{return val.json()}).then((val)=>{console.log(val);})
-    // }
+   
 
-
-    // fetchData = async ()=>{
-    //     var result = await fetch("https://dummyjson.com/products");
-    //     var result2 = await result.json();
-    //     console.log(result2);
-    // }
     
-    // Axios
 
     
     fetchData = async ()=>{
@@ -56,7 +52,7 @@ class FtechData extends Component{
         // console.log(this.state.products,"log from render");
         return(
             <>
-                <h4>product Listing</h4>
+                <h4 style={{color:this.state.favoriteColor}}>product Listing</h4>
                 {
                     this.state.products.length>0 
                     ?
@@ -89,4 +85,4 @@ class FtechData extends Component{
 }
 
 
-export default FtechData;
+export default LifeCycle;

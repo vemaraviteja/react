@@ -20,14 +20,28 @@ import { Button } from 'bootstrap';
 import Curd from './Apr_03_04_2024/Curd';
 import Repeat from './Repeat/repeat';
 import FtechData from './Apr_04_04_2024/FetchData';
+import LifeCycle from './Apr_05_04_2024/LifeCycle';
+import UpdatingCounter from './Apr_05_04_2024/LifeCounter';
+import Unmount from './Apr_05_04_2024/unmounting';
+
+import AddCart from './Apr_06_03_2024/AddCart';
 
 
 function App() {
   return (
     <div >
        <h1>Fetching data</h1>
-      <FtechData></FtechData>
+      {/* <FtechData></FtechData> */}
 
+      {/* <LifeCycle  favcol={"red"}></LifeCycle> */}
+
+      {/* <UpdatingCounter></UpdatingCounter> */}
+
+
+      {/* <Unmount></Unmount> */}
+
+
+      <AddCart></AddCart>
 
 
 
